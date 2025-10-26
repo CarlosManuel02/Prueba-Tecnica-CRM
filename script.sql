@@ -11,3 +11,5 @@ FROM Ejecutivos e
          LEFT JOIN Ventas ve ON ve.IdCliente = v.IdCliente
 GROUP BY e.IdEjecutivo, e.Nombre, e.Apellido
 ORDER BY Monto_total_vendido DESC
+
+
