@@ -1,6 +1,18 @@
 # Prueba Tecnica
 
 
+
+## Requerimientos Previos
+
+1. Tener Docker instalado.
+2. Tener Node.js, npm y NestJS CLI instalados.
+``` bash
+npm install -g @nestjs/cli
+```
+3. Contar con SSIS para la carga del CSV (si vas a usar la parte ETL).
+4. Base de datos Oracle se levantará con Docker.
+
+
 ## Levantamiento de la base de datos
 
 Para levantar la base de datos, asegúrate de tener Docker instalado en tu máquina. Luego, ejecuta el siguiente comando en la terminal:
@@ -27,8 +39,7 @@ ORACLE_SERVICE_NAME=XEPDB1
 
 ## Ejecución de la aplicación
 
-### Requisitos previos
-Asegúrate de tener Node.js, npm y NestJS CLI instalados en tu máquina.
+
 
 ### Instalación de dependencias
 Navega al directorio del proyecto y ejecuta el siguiente comando para instalar las dependencias
